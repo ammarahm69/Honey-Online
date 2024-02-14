@@ -72,5 +72,56 @@ ul {
     cursor: pointer;
     z-index: 2;
 }
-/* Honey Section */
+/*  Main Honey Section */
 
+.main-sec{
+    width: 90%;
+    /* border: 2px solid #fff; */
+    height: 500px;
+    position: absolute;
+    right: 1rem;
+    top: 10rem;
+}
+.heading h1{
+    padding-bottom: 43px;
+    font-size: 70px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+.side-img {
+    position: absolute;
+    top: 8%;
+    left: 65%;
+}
+.side-img img{
+    width: 100%;
+}
+.sub-heading p{
+    margin: 0px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+}
+.bt-pos{
+    position: relative;
+    top: 5rem;
+}
+.but{
+    padding: 18px 70px;
+    border-radius: 30px;
+    font-weight: 700;
+    background-color: #f06926;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+.but:hover{
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+
+}
