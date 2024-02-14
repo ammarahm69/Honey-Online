@@ -98,6 +98,18 @@ ul {
 .side-img img{
     width: 100%;
 }
+.scroll {
+    position: absolute;
+    top: 45rem;
+    left: 14rem;
+}
+.scroll h1{
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    color: #fff ;
+    font-weight: 600;
+}
 .sub-heading p{
     margin: 0px;
     font-weight: 400;
@@ -115,7 +127,7 @@ ul {
     font-weight: 700;
     background-color: #f06926;
     border: none;
-    font-size: 17px;
+    font-size: 15px;
     color: #fff;
     transition: all 0.6s ease;
 }
@@ -124,11 +136,13 @@ ul {
     background-color: black;
     color: #fff;
 
+
 }
+/* ABOUT SECTION CSS */
 .about-sec{
     width: 100%;
-    height: 500px;
-    border: 2px solid black;
+    height: 600px;
+    /* border: 2px solid black; */
     position: absolute;
     top: 80rem;
 }
@@ -150,15 +164,28 @@ ul {
     font-size: 50px;
     font-weight: 700;
 }
-.scroll {
+.about-text {
     position: absolute;
-    top: 45rem;
-    left: 23rem;
+    bottom: 10rem;
+    /* right: 40rem; */
+    left: 22px;
 }
-.scroll h1{
-    font-size: 5rem;
-    text-transform: capitalize;
-    font-family:'Times New Roman', Times, serif;
-    color: #fff ;
-    font-weight: 600;
+.about-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #303030;
+}
+.ab-bt {
+    position: absolute;
+    top: 31rem;
+    left: 28px;
+}
+/* Quality Section */
+.quality{
+    position: relative;
+    top: 124em;
+    width: 100%;
+    height: 600px;
+    border: 2px solid rgb(0, 0, 0);
 }

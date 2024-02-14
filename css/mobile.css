@@ -1,4 +1,4 @@
-@media screen and (min-width:300px) and (max-width:650px) {
+@media screen and (min-width:300px) and (max-width:768px) {
     .sec{
         display: none;
     }
@@ -15,11 +15,35 @@
     .side-img img{
         width: 70%;
     }
+    .but{
+        padding: 17px 18px;
+        border-radius: 30px;
+        font-weight: 700;
+        background-color: #f06926;
+        border: none;
+        font-size: 15px;
+        color: #fff;
+        transition: all 0.6s ease;
+    }
+    .but:hover{
+        cursor: pointer;
+        background-color: black;
+        color: #fff;
+    
+    }    
     .heading h1{
         font-size: 53px;
     }
     .scroll{
         display: none;
     }
+    .honey-jar-image {
+        position: absolute;
+        top: 24rem;
+        left: 66px;
+    }
+    .honey-jar-image img{
+        width: 70%;
+    }
+
 }
-/* screen for honey image */
